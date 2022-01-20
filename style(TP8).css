@@ -1,0 +1,89 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: rgba(200, 200, 200, 255);
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: justify;
+}
+
+p {
+  width: 1000px;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.link:link,
+.link:visited,
+.titre {
+  color: rgba(206, 16, 50, 255);
+  font-weight: bold;
+}
+
+.titre {
+  font-size: 40px;
+}
+
+table {
+  width: 1000px;
+  border-collapse: collapse;
+}
+th {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(200, 200, 200, 255);
+}
+
+tr:nth-child(odd) {
+  background-color: rgba(221, 221, 221, 255);
+}
+
+tr:hover {
+  background-color: rgba(153, 153, 153, 255);
+  cursor: pointer;
+}
+
+td {
+  height: 35px;
+}
+.image {
+  border: 4px solid red;
+  background-color: rgba(51, 51, 51, 255);
+  color: white;
+  width: 1000px;
+  text-align: center;
+  margin-left: -0.15%;
+  padding: 30px 30px 50px 30px;
+  border-radius: 15px;
+}
+
+figcaption {
+  padding-top: 25px;
+}
+.boite {
+  background-color: rgba(183, 183, 183, 255);
+  color: rgba(81, 69, 174, 255);
+  border: dashed rgba(107, 97, 176, 255);
+  line-height: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 850px;
+  padding: 10px 50px 10px 50px;
+  font-weight: bold;
+}
+
+h3 {
+  color: rgba(206, 16, 50, 255);
+  font-weight: bold;
+  font-size: 30px;
+}

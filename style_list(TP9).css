@@ -1,0 +1,26 @@
+table{
+    width: 80%;
+    margin-left: 2%;
+}
+
+thead {
+    background-color: #001f33;
+    color: white;
+}
+
+nav {
+    display: inline;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+li:last-of-type{
+    float: right;
+}
