@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "un un un un"
+    "un un un un"
+    "deux deux trois trois"
+    "deux deux trois trois"
+    "deux deux quatre quatre"
+    "deux deux quatre quatre"
+    "cinq cinq cinq cinq";
+  grid-auto-rows: 150px;
+  row-gap: 5px;
+}
+
+.item:nth-child(1) {
+  grid-area: un;
+}
+
+.item:nth-child(2) {
+  grid-area: deux;
+}
+
+.item:nth-child(3) {
+  grid-area: trois;
+}
+
+.item:nth-child(4) {
+  grid-area: quatre;
+}
+
+.item:nth-child(5) {
+  grid-area: cinq;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nav div {
+  border: 1px solid black;
+  width: 23%;
+  margin: 5px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.item {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "un un un un"
+      "un un un un"
+      "deux deux deux deux"
+      "deux deux deux deux"
+      "deux deux deux deux"
+      "trois trois trois trois"
+      "quatre quatre quatre quatre"
+      "cinq cinq cinq cinq";
+    grid-auto-rows: 150px;
+    row-gap: 5px;
+  }
+  .nav {
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+  }
+
+  .nav div {
+    width: calc(100% - 20px);
+    margin: 5px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
