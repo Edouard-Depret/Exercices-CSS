@@ -1,26 +1,36 @@
-table{
-    width: 80%;
-    margin-left: 2%;
+table {
+  width: 80%;
+  margin-left: 2%;
 }
 
 thead {
-    background-color: #001f33;
-    color: white;
+  background-color: #001f33;
+  color: white;
 }
 
 nav {
-    display: inline;
-    text-decoration: none;
+  display: inline;
+  text-decoration: none;
 }
 
-nav ul{
-    list-style-type: none;
+.navi {
+  background: red;
+  color: yellow;
+  height: 50px;
+  padding: 15px 15px 15px 15px;
+}
+
+nav ul {
+  list-style-type: none;
 }
 
 li {
-    display: inline;
+  display: inline;
 }
 
-li:last-of-type{
-    float: right;
+li:last-of-type {
+  float: right;
+}
+li:nth-child(2) {
+  margin-left: 80%;
 }
